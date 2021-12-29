@@ -54,3 +54,82 @@ table {
 a {
     text-decoration: none;
 }
+
+.container {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto; /* align to center */
+
+}
+
+/* ======================================== */
+/* HEADER */
+/* ======================================== */
+
+.page-header {
+    height: 50px;
+    width: 100%;
+    background: #0c0c0c;
+    color: rgb(191, 191, 191);
+}
+
+.page-header a {
+    color: inherit; /* inherit from parent */
+}
+
+.header-left {
+    float: left;
+    display: flex;
+    height: 100%;
+}
+
+.header-right {
+    float: right;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.page-nav ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.page-nav ul li {
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+.page-nav ul li::after {
+    content: "|";
+    margin: 0 0 0 5px;
+}
+
+.page-nav ul li:last-child::after {
+    content: "";
+}
+
+.page-nav a:hover {
+    color: #fff;
+}
+
+.page-logo {
+    position: relative;
+    width: 60px;
+}
+
+.page-logo img {
+    position: absolute;
+    width: 100%; /* 100% of parent element which is 60px. so 60xp */
+}
+
+.search-switcher-label {
+    margin: 0 15px;
+}
+
+.page-search-field {
+    width: 0;
+    visibility: hidden;
+}
