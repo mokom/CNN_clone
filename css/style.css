@@ -133,9 +133,41 @@ label:hover {
     margin: 0 15px;
 }
 
+.page-search {
+    position: relative;
+}
+
 .page-search-field {
-    width: 0;
-    visibility: hidden;
+    display: none;
+    width: 970px;
+    position: absolute;
+    right: 40px;
+    top: -7px;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px;
+    height: 30px;
+    -webkit-appearance: textfield; 
+}
+
+.page-search-field-label {
+    position: absolute;
+    right: 40px;
+    top:-5px;
+    height: 30px;
+    background: transparent;
+    width: 100px;
+    line-height: 30px;
+    display: none;
+    color: #000;
+}
+
+#search-switcher:checked~.page-search-field {
+    display: block;
+}
+
+#search-switcher:checked~.page-search-field-label {
+    display: block;
 }
 
 .international-edition {
@@ -210,4 +242,22 @@ label:hover {
     line-height: 30px;
     color: #bfbfbf;
     font-size: 15px;
+}
+
+/* .header-expanded-menu {
+    position: relative;
+} */
+
+.header-expanded-menu-block {
+    width: 100vw; /* so it covers the entire page width */
+    height: 400px;
+    background: rgb(0,0,0,.9);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: none;
+}
+
+#expanded-switcher:checked~.header-expanded-menu-block {
+    display: block;
 }
