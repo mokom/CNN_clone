@@ -342,3 +342,98 @@ label:hover {
     align-items: center;
 }
 
+
+/* ======================================== */
+/* FOOTER */
+/* ======================================== */
+
+.page-footer {
+    background: #0c0c0c;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.page-footer a {
+    color: #bfbfbf;
+}
+
+.footer-top-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-weather {
+    display: flex;
+    align-items: center;
+}
+
+.footer-weather img {
+    margin: 0 10px;
+}
+
+.footer-top-block .search {
+    background: #262626;
+    color: #bfbfbf;
+    border: 0;
+    width: 320px;
+    height: 35px;
+    font-size: 16px;
+    outline: none;
+    padding: 6px 45px 6px 12px;
+}
+
+.search-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer-top-block .search-block label {
+    margin-left: -40px;
+    font-size: 22px;
+}
+
+.footer-bottom-block {
+    position: relative;
+    height: 35px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-bottom-block .international-block {
+    top: -240px;
+    left: 0px;
+}
+
+.footer-bottom-block .international-block ul {
+    text-align: left;
+}
+
+.footer-bottom-block img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.footer-bottom-block .row-block.flex-block:nth-of-type(2) {
+    justify-content: flex-start;
+}
+
+/* .footer-bottom-block .international-switcher:checked */
+#footer-international-switcher:checked~.international-block {
+    display: block;
+}
+
+.copyrights {
+    /* float: right; */
+    text-align: right;
+    /* clear: both;
+    display: block;
+    margin-bottom: 15px; */
+}
+
+.footer-navigation {
+    clear:both;
+    /* display: block; */
+    font-size: 13px;
+}
