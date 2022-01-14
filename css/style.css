@@ -377,6 +377,10 @@ h1 {
     font-weight: bold;
     width: auto;
     padding: 0 10px;
+    position: absolute;
+    bottom: 100%;
+    left: 0; /* left aligned */
+    white-space: nowrap;
 }
 
 .image-block {
@@ -442,6 +446,31 @@ article {
     font-weight: 300;
     line-height: 1.2;
 }
+
+.small-size {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.full-width-heading {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(38,38,38);
+    line-height: 1.13;
+    background: rgba(250,250,250,0.85);
+    width: 100%;
+    padding: 7px 10px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.top-border {
+    border-top: 1px solid #d9d9d9;
+}
+
 
 /* ======================================== */
 /* FOOTER */
