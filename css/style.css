@@ -58,7 +58,7 @@ a {
 .wrapper {
     width: 1100px;
     height: 100%;
-    margin: 0 auto; /* align to center */
+    margin: 0 auto;
 
 }
 
@@ -78,7 +78,7 @@ label:hover {
 }
 
 .page-header a {
-    color: inherit; /* inherit from parent */
+    color: inherit;
 }
 
 .header-left {
@@ -127,7 +127,7 @@ label:hover {
 
 .page-logo img {
     position: absolute;
-    width: 100%; /* 100% of parent element which is 60px. so 60xp */
+    width: 100%; 
     z-index: 100000;
 }
 
@@ -246,12 +246,7 @@ label:hover {
     font-size: 15px;
 }
 
-/* .header-expanded-menu {
-    position: relative;
-} */
-
 .header-expanded-menu-block {
-    width: 100vw; /* so it covers the entire page width */
     background: rgb(0,0,0,.9);
     position: absolute;
     top: 50px;
