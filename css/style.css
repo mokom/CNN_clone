@@ -108,6 +108,7 @@ label:hover {
 
 .page-nav ul li::after {
     content: "|";
+    color: #fff;
     margin: 0 0 0 5px;
 }
 
@@ -574,9 +575,9 @@ article {
 
 .footer-bottom-block {
     position: relative;
-    height: 35px;
     align-items: center;
     margin-top: 50px;
+    color: rgb(191, 191, 191);
 }
 
 .footer-bottom-block .international-block {
@@ -597,21 +598,17 @@ article {
     justify-content: flex-start;
 }
 
-/* .footer-bottom-block .international-switcher:checked */
 #footer-international-switcher:checked~.international-block {
     display: block;
 }
 
 .copyrights {
-    /* float: right; */
     text-align: right;
-    /* clear: both;
-    display: block;
-    margin-bottom: 15px; */
 }
 
 .footer-navigation {
     clear:both;
-    /* display: block; */
     font-size: 13px;
+    margin-top: 10px;
+    float: right;
 }
