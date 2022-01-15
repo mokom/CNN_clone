@@ -247,11 +247,13 @@ label:hover {
 }
 
 .header-expanded-menu-block {
+    width: 100vw;
     background: rgb(0,0,0,.9);
     position: absolute;
     top: 50px;
     right: 0;
     display: none;
+    z-index: 1000;
 }
 
 #expanded-switcher:checked~.header-expanded-menu-block {
